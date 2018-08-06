@@ -1,0 +1,222 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}   
+
+.navbar a: hover {
+    background: #ddd;
+    color: black;
+}
+
+body {
+    background-color: #ffffee;
+    padding-left: 20px;
+}
+
+h1 {
+    font-size: 5vh;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: left;
+}
+
+li {
+    text-align: left;
+    list-style: circle;
+    font-size: 3vh;
+}
+
+.left-box {
+    float: left;
+    width: 50%;
+}
+
+.right-box {
+    float: right;
+    width: 50%;
+}
+
+.angular-div {
+    float: left;
+    padding-top: 5px;
+    height: 6vh;
+}
+
+.js-div {
+    float: left;
+    padding-top: 5px;
+    height: 5vh;
+}
+
+.net-div {
+    float: left;
+    padding-top: 5px;
+    height: 5vh;
+}
+
+.ionic-div {
+    /*float: left;*/
+    padding-top: 5vh;
+    height: 7vh;
+}
+
+#bar {
+    background: linear-gradient(to right, black 80%, gray 5%, gray 100%);
+    padding-right: 60%;
+    float: left;
+}
+
+.bar-level {
+    padding-left: 10px;
+    display: inline;
+}
+
+.text-p {
+    text-align: center;
+}
+
+.text-p > p {
+    text-align: left;
+    font-size: 2.5vh;
+}
+
+.small{
+    text-align: left;
+    font-size: 2vh;
+    padding-bottom: 5px;
+}
+
+#Home {
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Skill {
+    height: 150vh;
+    padding-top: 50px;
+}
+
+#Work {
+    padding-top: 50px;
+}
+
+#Project {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap {
+  margin: 50px auto;
+  max-width: 1000px;
+}
+
+.leftbox {
+    float: left;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.rightbox {
+    float: right;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.img-size {
+    float: left;
+    height: 50px;
+}
+
+.img-header {
+    font-size: 12pt;
+    margin-bottom: 5px;
+    padding-right: 5px;
+}
+
+#angular-bar {
+    float: left;
+    width: 50%;
+    height: 20px;
+    background: linear-gradient(to right, #C9E6F7 0%, #C9E6F7 40%, #E6E6E6 30%, #E6E6E6 100%);
+}
+
+#ionic-bar {
+    float: left;
+    width: 50%;
+    height: 20px;
+    background: linear-gradient(to right, #C9E6F7 0%, #C9E6F7 40%, #E6E6E6 30%, #E6E6E6 100%);
+}
+
+#ts-bar {
+    float: left;
+    width: 50%;
+    height: 20px;
+    background: linear-gradient(to right, #C9E6F7 0%, #C9E6F7 25%, #E6E6E6 30%, #E6E6E6 100%);
+}
+
+#js-bar {
+    float: left;
+    width: 50%;
+    height: 20px;
+    background: linear-gradient(to right, #C9E6F7 0%, #C9E6F7 25%, #E6E6E6 30%, #E6E6E6 100%);
+}
+
+#net-bar {
+    float: left;
+    width: 50%;
+    height: 20px;
+    background: linear-gradient(to right, #C9E6F7 0%, #C9E6F7 80%, #E6E6E6 80%, #E6E6E6 100%);
+}
+
+#java-bar {
+    float: left;
+    width: 50%;
+    height: 20px;
+    background: linear-gradient(to right, #C9E6F7 0%, #C9E6F7 50%, #E6E6E6 50%, #E6E6E6 100%);
+}
+
+.level {
+    float: left;
+    margin-left: 10px;
+    font-size: 2vh;
+}
+
+.project-wrap {
+    float: center;
+}
+
+.project-img {
+    max-height: 250px;
+    float: center;
+    margin: auto;
+}
+
+.tools {
+    padding-top: 50px;
+    /*background: red;*/
+    height: 100vh;
+}
